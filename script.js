@@ -1,4 +1,3 @@
-// Alert Me Function
 function alertMe() {
     var name = document.getElementById("name").value;
     if (name) {
@@ -6,7 +5,6 @@ function alertMe() {
     }
 }
 
-// Change Color Function
 let isBlue = true;
 
 function changeColor() {
@@ -18,7 +16,6 @@ function changeColor() {
     isBlue = !isBlue;
 }
 
-// Text Validation Function
 function validateText() {
     var text = document.getElementById("text-input").value;
     var validation = /[!@#$%^&*()_+\-=\[\]{};':"\\|.<>\/?]+/;
@@ -29,7 +26,6 @@ function validateText() {
     }
 }
 
-// Add Text Function
 function addText() {
     var heading = document.getElementById("page-heading");
     heading.textContent += " Add Text";
