@@ -5,6 +5,7 @@ function alertMe() {
     }
 }
 
+
 let isBlue = true;
 
 function changeColor() {

@@ -4,9 +4,11 @@ body {
     margin: 20px;
 }
 
+
 h1, h2 {
     text-align: center;
 }
+
 
 .section-style {
     border: 1px solid khaki;
@@ -16,6 +18,7 @@ h1, h2 {
     width: 40%;
     display: inline-block;
 }
+
 
 button {
     padding: 10px 20px;
