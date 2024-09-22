@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INST377 Lab 4</title>
+    <link rel="stylesheet" href="Lab4.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1 id="page-heading">Welcome to My Lab 4 Page</h1>
+
+    
+<!-- Alert Me Section -->
+<section class="section-style">
+    <h2>Alert Me Section</h2>
+    <form id="alert-form">
+        <label for="name">Enter your name:</label>
+        <input type="text" id="name" name="name" required>
+        <button type="submit" onsubmit="alertMe()">Alert Me</button>
+    </form>
+</section>
+
+
+    <!-- Change Color Section -->
+    <section class="section-style">
+        <h2>Change Color Section</h2>
+        <button id="color-button" onclick="changeColor()">Change Color</button>
+    </section>
+
+
+    <!-- Text Tester Section -->
+    <section class="section-style">
+        <h2>Text Tester Section</h2>
+        <form id="text-tester-form">
+            <label for="text-input">Enter text to validate:</label>
+            <input type="text" id="text-input" name="text-input">
+            <button type="button" onclick="validateText()">Validate Text</button>
+        </form>
+    </section>
+
+
+    <!-- Add Text Section -->
+    <section class="section-style">
+        <h2>Add Text Section</h2>
+        <button id="add-text-button" onclick="addText()">Add Text</button>
+    </section>
+</body>
+</html>

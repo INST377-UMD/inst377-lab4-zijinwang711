@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: skyblue;
+    margin: 20px;
+}
+
+
+h1, h2 {
+    text-align: center;
+}
+
+
+.section-style {
+    border: 1px solid khaki;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 40%;
+    display: inline-block;
+}
+
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
